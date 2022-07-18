@@ -10,7 +10,8 @@ export default function App() {
     settopic(e.target.value);
   };
 
-  const addTopic = () => {};
+  const addTopic = () => {seta([...a,topic])
+  };
 
   return (
     <div>
