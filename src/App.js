@@ -15,7 +15,7 @@ export default function App() {
   ()=>{document.Title=x;};
 
   const handleChange = (e)=>{
-    
+
     const inputValue=+e.target.value;
 
     setx(inputValue)
@@ -29,6 +29,9 @@ export default function App() {
 
     <div>
       <input type="number" onChange={handleChange}/>
+
+      <input type="range" onChange={handleChange} />
+      
       <h1>counter{x}</h1>
       <button onClick={p1}>+</button>
       <button onClick={p2}>-</button>
