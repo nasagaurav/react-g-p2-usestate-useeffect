@@ -14,6 +14,14 @@ export default function App() {
   const changeTitle=
   ()=>{document.Title=x;};
 
+  const handleChange = (e)=>{
+    
+    const inputValue=+e.target.value;
+
+    setx(inputValue)
+
+  };
+
   React.useEffect(changeTitle,[x]);
  
 
