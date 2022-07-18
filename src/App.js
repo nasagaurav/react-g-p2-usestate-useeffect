@@ -3,23 +3,23 @@ import './style.css';
 
 export default function App() {
   const p1 = () => {
-    document.title = "munnabhai mbbs"
-  }
+    document.title='munnabhai mbbs';
+  };
   const p2 = () => {
-    document.title = "bhag bhag dk boss"
-  }
+    document.title='bhag bhag dk boss';
+  };
   const p3 = () => {
-    document.title = "kahani ghar ghar ki"
-  }
+    document.title='kahani ghar ghar ki';
+  };
   const p4 = () => {
-    document.title = "yo yo no no"
-  }
+    document.title='yo yo no no';
+  };
   const p5 = () => {
-    document.title = "xxx dekh"
-  }
+    document.title='xxx dekh';
+  };
   const p6 = () => {
-    document.title = "mirzapur"
-  }
+    document.title='mirzapur';
+  };
 
   return (
     <div>
